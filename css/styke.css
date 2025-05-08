@@ -1,0 +1,64 @@
+ :root {
+            --pak-green: #01411C;
+            --pak-green-light: #046A38;
+            --pak-white: #FFFFFF;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            background-color: var(--pak-green);
+        }
+        
+        .navbar-brand, .nav-link {
+            color: var(--pak-white) !important;
+        }
+        
+        .nav-link:hover {
+            color: #ddd !important;
+        }
+        
+        .btn-pak {
+            background-color: var(--pak-green);
+            color: white;
+        }
+        
+        .btn-pak:hover {
+            background-color: var(--pak-green-light);
+            color: white;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(1, 65, 28, 0.7), rgba(1, 65, 28, 0.7)), 
+                        url('https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .product-card {
+            transition: transform 0.3s;
+            border: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .product-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        footer {
+            background-color: var(--pak-green);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
